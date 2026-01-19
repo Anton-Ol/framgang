@@ -2,3 +2,204 @@
  * @file
  * Subtheme specific CSS.
  */
+
+ p {
+    font-family: Montserrant;
+ }
+ /*.navbar img{
+  
+ }*/
+
+ 
+ h2 span{
+    color: black;
+    font-weight: bolder;
+   text-shadow: 2px 2px 4px rgba(212,175,55,0.6); 
+ }
+  h1 span{
+    color: black;
+    font-weight: bolder;
+   text-shadow: 2px 2px 4px rgba(212,175,55,0.6); 
+ }
+ h2 span:hover{
+   color: #D4AF37; 
+}
+ body {
+    background-color: #1A1A1A;
+ }
+ #navbar-main{
+    background-color: #4CAF50;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    border-bottom: 5px solid black;
+
+ }
+/*.block {
+  
+
+  
+}*/
+a:hover {
+    color: #D4AF37;
+}
+a{
+color: #0055AA;
+}
+ 
+img {
+  border-radius: 4px;
+  max-width: 100%;
+  height: auto;
+}
+
+#main-wrapper {
+   background-color: lightgreen;
+  margin-top: 0;
+   margin-right: 0;
+   padding-bottom: 3em;
+   
+ 
+
+}
+#content {
+   margin-left: 5em;
+   margin-right: 5em;
+  
+
+}
+#sidebar_first{
+max-width: 20em;
+margin-top: 2em;
+
+}
+#block-framgang-citatfranenmansomnattframgang{
+      background-color: lightgreen;
+          border: 3px solid black;
+
+
+
+}
+#block-framgang-villdublirikkopdaminkurs{
+   background-color: lightgreen;
+       border: 3px solid black;
+
+}
+#sidebar_second{
+max-width: 20em;
+margin-top: 2em;
+
+}
+#main
+{
+  min-width: 90%;
+  
+  
+   
+}
+#content{
+   min-width: 30%;
+   padding-top: 3em;
+}
+#block-framgang-pavagenmotframgang{
+    background-color: lightgreen;
+       border: 3px solid black; 
+}
+#block-framgang-veckansinspirationscitat{
+  background-color: lightgreen;
+       border: 3px solid black; 
+}
+#sidebar_first h2{
+   color: black;
+   font-weight: bolder;
+
+}
+#sidebar_second h2{
+   color: black;
+   font-weight: bolder;
+}
+.views-row{
+   background-color: lightgreen;
+}
+#block-framgang-tanastastegmotframgang{
+     background-color: lightgreen;
+       border: 3px solid black; 
+
+}
+#block-framgang-utvecklingsomhallerovertid{
+     background-color: lightgreen;
+       border: 3px solid black; 
+
+}
+.block-views-blocktrestegsmetoden-for-att-na-framgang-block-1{
+   margin-bottom: 6em;
+
+}
+.block-views-blocktrestegsmetoden-for-att-na-framgang-block-1 h2{
+    color: black;
+    font-weight: bolder;
+   text-shadow: 2px 2px 4px rgba(212,175,55,0.6); 
+   margin-bottom: 1em;
+}
+.site-footer{
+  
+  background: linear-gradient(135deg,#4CAF50, black);
+  color: #fff;
+
+
+}
+.tostyle{
+   display: flex;
+   justify-content: center;
+   gap: 10em;
+   max-width: 90%;
+   padding-bottom: 5em;
+
+  
+   
+   
+}
+#block-framgang-reg2, #block-framgang-reg3{
+   margin-bottom: 3em;
+}
+.tostyle h2{
+   color: black;
+    font-weight: bolder;
+   text-shadow: 2px 2px 4px rgba(212,175,55,0.6); 
+}
+
+.tabs .nav-link{
+   color: black;
+}
+#navbar-main a{
+   color: black;
+   
+}
+#navbar-main a:hover{
+   color: #D4AF37;
+   
+
+}
+
+/*.new-parts-wrapper img{
+   width: 30em;
+   height: auto;
+   
+ 
+}*/
+
+/*.block-views-blocktrestegsmetoden-for-att-na-framgang-block-1{
+   display: inline-block;
+}
+*/
+/*.clearfix{
+   background-color: lightgreen;
+   border: 0px lightgreen;
+} */
+
+
+/* denna är bra då den targetar allt mellan header och footer*/
+
+/* jag vill ändra top saken o lägga till bilder samt göra sidan lite mer livlig och inspererande då den nu är ganska tråkig*/
+/*VIll typ lägga my account o log out o hela den baren i footer. Dock vill jag ha searchbar i main-header*/
+/*kan typ tar bort hela navbar top*/
