@@ -55,8 +55,6 @@ img {
 
 #main-wrapper {
    background-color: lightgreen;
-  margin-top: 0;
-   margin-right: 0;
    padding-bottom: 3em;
    
  
@@ -73,18 +71,7 @@ max-width: 20em;
 margin-top: 2em;
 
 }
-#block-framgang-citatfranenmansomnattframgang{
-      background-color: lightgreen;
-          border: 3px solid black;
 
-
-
-}
-#block-framgang-villdublirikkopdaminkurs{
-   background-color: lightgreen;
-       border: 3px solid black;
-
-}
 #sidebar_second{
 max-width: 20em;
 margin-top: 2em;
@@ -101,14 +88,8 @@ margin-top: 2em;
    min-width: 30%;
    padding-top: 3em;
 }
-#block-framgang-pavagenmotframgang{
-    background-color: lightgreen;
-       border: 3px solid black; 
-}
-#block-framgang-veckansinspirationscitat{
-  background-color: lightgreen;
-       border: 3px solid black; 
-}
+
+
 #sidebar_first h2{
    color: black;
    font-weight: bolder;
@@ -121,21 +102,21 @@ margin-top: 2em;
 .views-row{
    background-color: lightgreen;
 }
-#block-framgang-tanastastegmotframgang{
-     background-color: lightgreen;
-       border: 3px solid black; 
-
+#sidebar_first .block-content-basic{
+    background-color:  rgb(157, 238, 157);
+       border: 3px solid rgba(0, 0, 0, 0.438); 
 }
-#block-framgang-utvecklingsomhallerovertid{
-     background-color: lightgreen;
-       border: 3px solid black; 
-
+#sidebar_second .block-content-basic{
+    background-color:  rgb(157, 238, 157);
+       border: 3px solid rgba(0, 0, 0, 0.438); 
 }
-.block-views-blocktrestegsmetoden-for-att-na-framgang-block-1{
+
+
+.block-views{
    margin-bottom: 6em;
 
 }
-.block-views-blocktrestegsmetoden-for-att-na-framgang-block-1 h2{
+.block-views h2{
     color: black;
     font-weight: bolder;
    text-shadow: 2px 2px 4px rgba(212,175,55,0.6); 
@@ -173,12 +154,55 @@ margin-top: 2em;
 }
 #navbar-main a{
    color: black;
+   font-size: 1.3em;
    
 }
 #navbar-main a:hover{
    color: #D4AF37;
-   
+   text-decoration: underline;
+}
+.region-footer-fifth p{
+   color: white;
+}
+.region-footer-first p, .region-footer-second p, .region-footer-second h2, .region-footer-first h2  {
+   color: white;
+   font-size: 1.1em;
+}
 
+
+.region-footer-first ul{
+   display: flex;
+   justify-content: center;
+   
+   
+}
+
+.site-footer__top .region{
+   width: 50%;
+   padding: 2em;
+}
+.site-footer{
+   padding: 0;
+}
+.site-footer__bottom{
+   margin-top: 0;
+}
+.region-footer-fifth{
+   display: flex;
+   justify-content: space-around;
+}
+.site-footer__bottom a:hover{
+      color: #D4AF37; 
+      text-decoration: underline;
+
+
+}
+header nav img{
+   width: 5em;
+   height: auto;
+}
+.site-footer__bottom a{
+   color: white;
 }
 
 /*.new-parts-wrapper img{
